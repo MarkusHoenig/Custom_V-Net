@@ -9,6 +9,7 @@ Added features:
 - k-fold cross-validation
 - Save snapshot of the iteration with the best validation loss
 - Auto-Context model
+- distance map as GT instead of label map
 
 New hyperparameters that can be adjusted in the 'main.py' file:
 - weight decay
@@ -18,5 +19,6 @@ New hyperparameters that can be adjusted in the 'main.py' file:
 - number of images for validation phase
 - disable preprocessing
 - probability for data augmentation
+- enable/disable probability maps and distance maps
 
 
